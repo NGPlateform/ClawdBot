@@ -1,0 +1,17 @@
+{
+  "name": "@openclaw/polymarket-trading",
+  "version": "0.1.0",
+  "description": "OpenClaw plugin for Polymarket prediction market trading",
+  "type": "module",
+  "dependencies": {
+    "@sinclair/typebox": "0.34.48"
+  },
+  "devDependencies": {
+    "openclaw": "workspace:*"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
