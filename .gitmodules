@@ -1,0 +1,3 @@
+[submodule "COC"]
+	path = COC
+	url = https://github.com/chainofclaw/COC.git

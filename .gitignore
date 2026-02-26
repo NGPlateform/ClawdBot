@@ -120,3 +120,14 @@ dist/protocol.schema.json
 
 # Synthing
 **/.stfolder/
+
+# Local subprojects and files
+openclaw/
+PulseMind/
+.playwright-mcp/
+*.png
+
+# Extension secrets and logs
+extensions/**/.wallet.json
+extensions/**/.test-wallet.json
+extensions/**/deploy-*.log
